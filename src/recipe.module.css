@@ -1,0 +1,44 @@
+/* CSS style only for Recipe.js */
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  /*align-items: center;*/
+  /*min-width: 40%;*/
+  width: 50%;
+}
+
+.title {
+  /*padding: 10px 20px;*/
+  text-align: center;
+  color: #29323c;
+}
+
+.list-color {
+  font-size: 20px;
+}
+
+.image {
+  border: 2px solid #596164;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  margin: 0px 0px 16px 0px;
+}
+
+.calories {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .recipe {
+    width: 100%;
+  }
+}
